@@ -1,14 +1,38 @@
-{
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
+/* eslint-disable max-len */
+export default {
+  owner: {
+    id: 79,
+    username: 'Dohun Kim',
+    description: 'Dohun is a software engineer in Korea.'
+  },
+  plan: {
+    id: 509,
+    summary: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse erat ligula, fringilla in imperdiet id, tempor vel enim. Maecenas vitae aliquam ante. Duis et leo a ligula bibendum rhoncus. Curabitur at interdum massa. Sed eget lacus ac eros rutrum gravida. Sed laoreet magna id tortor condimentum, ut pulvinar nisi dictum. Vivamus tristique maximus nisi, at hendrerit risus cursus ac. Donec tincidunt bibendum ultrices. Proin scelerisque diam elit, sit amet imperdiet elit tincidunt sed. Vivamus ac arcu lacus. Quisque malesuada erat a urna ultricies, ac iaculis nunc dapibus. Phasellus sodales consectetur sem, vel dapibus ante accumsan at. Nam condimentum semper scelerisque. Nullam maximus aliquet dui, id sollicitudin diam pulvinar eu. In et dapibus eros. Aliquam in nunc lorem.',
+    sections: [
+      {
+        id: 1,
+        section: 'week 1',
+        title: 'Suspendisse erat ligula, fringilla in imperdiet id, tempor vel enim.',
+        summary: 'Sed maximus pulvinar ligula nec lobortis. Praesent scelerisque pellentesque urna eget aliquam. Sed elementum nisi velit, sed semper massa condimentum sed. Donec malesuada eget ante eu tempus. Integer gravida hendrerit ornare. Fusce vitae sem ut lacus pharetra euismod. Duis tristique lorem metus, posuere consectetur elit imperdiet nec. Vestibulum auctor justo nec augue aliquam, eget maximus nisi suscipit. Etiam sollicitudin, mi eu congue lacinia, lectus ipsum auctor risus, eu fringilla lorem turpis vitae odio. Sed scelerisque ornare efficitur. Fusce sed lectus in neque semper posuere. Sed vulputate felis ut odio ornare auctor.'
+      },
+      {
+        id: 2,
+        section: 'week 2',
+        title: 'Sed maximus pulvinar ligula nec lobortis.',
+        summary: 'Praesent scelerisque pellentesque urna eget aliquam. Sed elementum nisi velit, sed semper massa condimentum sed. Donec malesuada eget ante eu tempus. Integer gravida hendrerit ornare. Fusce vitae sem ut lacus pharetra euismod. Duis tristique lorem metus, posuere consectetur elit imperdiet nec. Vestibulum auctor justo nec augue aliquam, eget maximus nisi suscipit. Etiam sollicitudin, mi eu congue lacinia, lectus ipsum auctor risus, eu fringilla lorem turpis vitae odio. Sed scelerisque ornare efficitur. Fusce sed lectus in neque semper posuere. Sed vulputate felis ut odio ornare auctor.'
+      },
+      {
+        id: 3,
+        section: 'week 3',
+        title: 'Vivamus finibus tellus quis pretium maximus.',
+        summary: 'Vestibulum sit amet odio metus. Quisque non lorem at lorem vestibulum porttitor eget ut lacus. Integer ut purus in ex sodales commodo ultricies eu nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Duis orci lorem, commodo vel magna eu, tempus eleifend justo. Fusce cursus magna nec elit dictum, in mollis eros efficitur. Nam ornare arcu velit, facilisis varius velit aliquam at. Quisque ornare blandit imperdiet. Mauris nunc orci, fermentum non hendrerit vitae, volutpat eu lorem. Fusce porttitor maximus maximus. Quisque non lectus sem. Suspendisse et erat commodo ipsum scelerisque sagittis vitae a ipsum. Vestibulum tincidunt quis felis a vulputate.'
+      },
+      {
+        id: 4,
+        section: 'week 4',
+        title: 'In pellentesque massa vel mi pulvinar congue.',
+        summary: 'Morbi imperdiet posuere lectus, id dictum elit. Suspendisse feugiat leo mi, pretium venenatis purus imperdiet ac. Etiam leo sem, lobortis in efficitur et, fermentum in mi. Nam nec laoreet ipsum. Sed fermentum accumsan aliquam. In diam quam, vestibulum interdum semper eget, porta et turpis. Etiam et sapien in dolor fermentum tristique. Phasellus non laoreet augue. Morbi placerat sit amet nulla vel facilisis. Praesent ultrices imperdiet placerat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Fusce molestie suscipit lorem sed semper. Maecenas viverra felis eros, non sodales lorem placerat malesuada.'
+      }
+    ]
   }
 }
